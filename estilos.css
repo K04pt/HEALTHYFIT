@@ -366,3 +366,59 @@ AQUI HAGO LA WEB RESPONSIVE PARA CELULARES
     align-items: center;
 }
 }
+@media (max-width:480px){
+    /*RESPONSIVO PORTADA*/
+    .cabecera{
+        flex-direction: column;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .redes{
+        margin-left: 0;
+    }
+    .portada{
+        height: auto;
+        padding: 5px 20px;
+    }
+    .portada_texto{
+        transform: none;
+        position: static;
+        width: 100% 20px;
+        text-align: center;
+    }
+
+/*RESPONSIVO SERVICIOS*/
+.servicio_grilla{
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/*RESPONSIVO NOSOTROS*/
+.equipo{
+    flex-direction: column;
+    padding: 50px 0px ;  
+}
+.equipo p{
+    padding: 20px 20px;
+}
+.equipo img{
+    width: 95%;
+}
+.cabecera_nosotros h1{
+    padding: 0px 50%;
+    padding-left: 20%;
+
+}
+.mis_vis{
+    grid-template-columns: 1fr;
+}
+
+/*RESPONSIVO BLOG*/
+.blog{
+    grid-template-columns: 1fr;
+}
+.contacto{
+    align-items: center;
+}
+}
